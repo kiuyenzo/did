@@ -1,6 +1,7 @@
 to dos:
-in der db sind did did:webs nicht alle endpoints gespeichert
-die neue syntax dann in github hochladen
+-in der db sind did did:webs nicht alle endpoints gespeichert
+-die neue syntax dann in github hochladen
+-Secp256k1 ändern zu ed25519?
 
 
 https://kiuyenzo.github.io/did/issuer/did.json
