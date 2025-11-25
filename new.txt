@@ -21,9 +21,15 @@ curl -o issuer/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/
 curl -o nf-a/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-a/did.json
 curl -o nf-b/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-b/did.json
 
+#lieber mit comit
 git add issuer/did.json
 git commit -m "Add did:web:kiuyenzo.github.io:did:issuer"
 git push
+
+#testen
+veramo did resolve did:web:kiuyenzo.github.io:did:issuer
+veramo did resolve did:web:kiuyenzo.github.io:did:nf-a
+veramo did resolve did:web:kiuyenzo.github.io:did:nf-b
 
 veramo did add-service
 
