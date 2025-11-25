@@ -1,5 +1,5 @@
 ordnersturktur klappt: https://kiuyenzo.github.io/did/issuer/did.json
-# to do
+
 https://kiuyenzo.github.io/did/did.json
 
 resolve
