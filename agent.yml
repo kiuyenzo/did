@@ -1,8 +1,8 @@
 version: 3.0
 
 constants:
-  baseUrl: http://localhost:3332
-  port: 3332
+  baseUrl: http://localhost:3330
+  port: 3330
   # please use your own X25519 key, this is only an example
   # you can generate a new key by running `veramo config gen-key` in a terminal
   dbEncryptionKey: f2c9ab0115fb58a776e3b5caf504b88caf89325959038497f79dc124274e3c39
