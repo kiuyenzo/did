@@ -3,7 +3,7 @@ https://kiuyenzo.github.io/Prototype_v2/issuer/did.json
 https://kiuyenzo.github.io/Prototype/nf-a/did.json
 
 resolve
-veramo did resolve did:web:kiuyenzo.github.io:Prototype
+veramo did resolve did:web:kiuyenzo.github.io:Prototype_v2/issuer
 veramo did resolve did:web:kiuyenzo.github.io:Prototype/nf-a
 
 
