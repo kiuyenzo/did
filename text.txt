@@ -1,7 +1,5 @@
 ordnersturktur klappt: https://kiuyenzo.github.io/did/issuer/did_issuer.json
 
-
-
 resolve
 veramo did resolve did:web:kiuyenzo.github.io:did:issuer
 veramo did resolve did:web:kiuyenzo.github.io:Prototype #eig nur aus 3 teilen
