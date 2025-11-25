@@ -3,7 +3,8 @@ https://kiuyenzo.github.io/did/issuer/did.json
 veramo did resolve did:web:kiuyenzo.github.io:did:issuer
 
 veramo did create
-kiuyenzo:github.io:did:issuer
+kiuyenzo.github.io:did:issuer
+
 
 veramo server
 curl -o issuer/did.json \

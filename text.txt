@@ -7,7 +7,8 @@ veramo did resolve did:web:kiuyenzo.github.io:did:issuer
 veramo did resolve did:web:kiuyenzo.github.io:Prototype #eig nur aus 3 teilen
 
 veramo did create
-kiuyenzo.github.io:did:issuer
+kiuyenzo:github.io:did:issuer
+#kiuyenzo.github.io:did:issuer
 
 veramo server
 curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3330/did/issuer/did.json
