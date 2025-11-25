@@ -6,7 +6,10 @@ kiuyenzo:github.io:did:issuer
 veramo server
 curl -o issuer/did.json \
   -H "Host: kiuyenzo.github.io" \
-  http://localhost:3330/did/issuer/did.json
+  http://localhost:3332/did/issuer/did.json
+
+
+  
 
 git add issuer/did.json
 git commit -m "Add did:web:kiuyenzo.github.io:did:issuer"
