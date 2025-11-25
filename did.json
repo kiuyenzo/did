@@ -5,6 +5,6 @@
 <title>Error</title>
 </head>
 <body>
-<pre>Cannot GET /did/issuer/did_issuer.json</pre>
+<pre>Cannot GET /did/did_issuer.json</pre>
 </body>
 </html>
