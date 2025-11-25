@@ -1,5 +1,7 @@
 https://kiuyenzo.github.io/did/issuer/did.json
 
+veramo did resolve did:web:kiuyenzo.github.io:did:issuer
+
 veramo did create
 kiuyenzo:github.io:did:issuer
 
@@ -8,12 +10,49 @@ curl -o issuer/did.json \
   -H "Host: kiuyenzo.github.io" \
   http://localhost:3332/did/issuer/did.json
 
-
-  
+curl -o issuer/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/issuer/did.json
 
 git add issuer/did.json
 git commit -m "Add did:web:kiuyenzo.github.io:did:issuer"
 git push
 
+veramo did add-service
+
+curl -o issuer/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/issuer/did.json
+git add issuer/did.json
+git commit -m "Add service endpoint"
+git push
+
 veramo did resolve did:web:kiuyenzo.github.io:did:issuer
+
+
+
+---
+
+https://kiuyenzo.github.io/did/did.json
+
+veramo did resolve did:web:kiuyenzo.github.io:did
+
+veramo did create
+kiuyenzo:github.io:did
+
+veramo server
+curl -o issuer/did.json \
+  -H "Host: kiuyenzo.github.io" \
+  http://localhost:3332/did/did.json
+
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/did.json
+
+git add issuer/did.json
+git commit -m "Add did:web:kiuyenzo.github.io:did"
+git push
+
+veramo did add-service
+
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/did.json
+git add did.json
+git commit -m "Add service endpoint"
+git push
+
+veramo did resolve did:web:kiuyenzo.github.io:did
 
