@@ -1,8 +1,8 @@
 version: 3.0
 
 constants:
-  baseUrl: http://localhost:3330
-  port: 3330
+  baseUrl: http://localhost:3332
+  port: 3332
   # please use your own X25519 key, this is only an example
   # you can generate a new key by running `veramo config gen-key` in a terminal
   dbEncryptionKey: 285ef9108492157ab7d19df9384a83c911aa786ac80393ed23104b455710cfab
@@ -119,7 +119,7 @@ server:
     - - /open-api.json
       - $require: '@veramo/remote-server?t=function#ApiSchemaRouter'
         $args:
-          - basePath: :3330/agent
+          - basePath: :3332/agent
             securityScheme: bearer
             apiName: Agent
             apiVersion: '1.0.0'
