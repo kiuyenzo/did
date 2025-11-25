@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1",
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+  ],
+  "id": "did:web:kiuyenzo.github.io:did:nf-b",
+  "verificationMethod": [
+    {
+      "id": "did:web:kiuyenzo.github.io:did:nf-b#2ee54123d247253e49167cdd9d19e5ebd608dc47884cc156f560e5a29a621823",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:kiuyenzo.github.io:did:nf-b",
+      "publicKeyHex": "2ee54123d247253e49167cdd9d19e5ebd608dc47884cc156f560e5a29a621823"
+    },
+    {
+      "id": "did:web:kiuyenzo.github.io:did:nf-b#04c898f2a76371a15df6600459c6e35a75587ebe363e6eaa92a231c3ce434c36559075714ba85302377c047f9319ce31a69c1e4cf80b5f155304de383d680d0eb3",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:kiuyenzo.github.io:did:nf-b",
+      "publicKeyHex": "04c898f2a76371a15df6600459c6e35a75587ebe363e6eaa92a231c3ce434c36559075714ba85302377c047f9319ce31a69c1e4cf80b5f155304de383d680d0eb3"
+    }
+  ],
+  "authentication": [
+    "did:web:kiuyenzo.github.io:did:nf-b#2ee54123d247253e49167cdd9d19e5ebd608dc47884cc156f560e5a29a621823",
+    "did:web:kiuyenzo.github.io:did:nf-b#04c898f2a76371a15df6600459c6e35a75587ebe363e6eaa92a231c3ce434c36559075714ba85302377c047f9319ce31a69c1e4cf80b5f155304de383d680d0eb3"
+  ],
+  "assertionMethod": [
+    "did:web:kiuyenzo.github.io:did:nf-b#2ee54123d247253e49167cdd9d19e5ebd608dc47884cc156f560e5a29a621823",
+    "did:web:kiuyenzo.github.io:did:nf-b#04c898f2a76371a15df6600459c6e35a75587ebe363e6eaa92a231c3ce434c36559075714ba85302377c047f9319ce31a69c1e4cf80b5f155304de383d680d0eb3"
+  ],
+  "keyAgreement": [],
+  "service": [
+    {
+      "id": "#messaging-local",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://localhost:3332/messaging",
+      "description": null
+    }
+  ]
+}
