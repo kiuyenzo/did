@@ -41,7 +41,6 @@ curl -o issuer/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/
 curl -o nf-a/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-a/did.json
 curl -o nf-b/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-b/did.json
 
-
 #lieber mit comit
 git add issuer/did.json
 git commit -m "Add service endpoint"
