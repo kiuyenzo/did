@@ -1,9 +1,15 @@
 https://kiuyenzo.github.io/did/issuer/did.json
+https://kiuyenzo.github.io/did/nf-a/did.json
+https://kiuyenzo.github.io/did/nf-b/did.json
 
 veramo did resolve did:web:kiuyenzo.github.io:did:issuer
+veramo did resolve did:web:kiuyenzo.github.io:did:nf-a
+veramo did resolve did:web:kiuyenzo.github.io:did:nf-b
 
 veramo did create
 kiuyenzo.github.io:did:issuer
+kiuyenzo.github.io:did:nf-a
+kiuyenzo.github.io:did:nf-b
 
 
 veramo server
@@ -12,6 +18,8 @@ curl -o issuer/did.json \
   http://localhost:3332/did/issuer/did.json
 
 curl -o issuer/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/issuer/did.json
+curl -o nf-a/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-a/did.json
+curl -o nf-b/did.json -H "Host: kiuyenzo.github.io" http://localhost:3332/did/nf-b/did.json
 
 git add issuer/did.json
 git commit -m "Add did:web:kiuyenzo.github.io:did:issuer"
