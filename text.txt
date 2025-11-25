@@ -1,5 +1,5 @@
 available
-https://kiuyenzo.github.io/Prototype/did.json
+https://kiuyenzo.github.io/Prototype_v2/issuer/did.json
 https://kiuyenzo.github.io/Prototype/nf-a/did.json
 
 resolve
