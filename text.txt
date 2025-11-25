@@ -1,3 +1,5 @@
+ordnersturktur klappt: https://kiuyenzo.github.io/did/issuer/did_issuer.json
+
 available
 https://kiuyenzo.github.io/did-issuer/did.json
 https://kiuyenzo.github.io/Prototype/nf-a/did.json
