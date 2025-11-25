@@ -1,0 +1,42 @@
+available
+https://kiuyenzo.github.io/Prototype/did.json
+https://kiuyenzo.github.io/Prototype/nf-a/did.json
+
+resolve
+veramo did resolve did:web:kiuyenzo.github.io:Prototype
+veramo did resolve did:web:kiuyenzo.github.io:Prototype/nf-a
+
+
+veramo did create
+kiuyenzo.github.io:Prototype
+
+veramo server
+
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3331/Prototype/did.json
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3331/Prototype/nf-a/did.json
+
+git add did.json
+git commit -m "Add did.json"
+git push
+
+check
+https://kiuyenzo.github.io/Prototype/did.json
+https://kiuyenzo.github.io/Prototype/nf-a/did.json
+
+resolve 
+veramo did resolve did:web:kiuyenzo.github.io:Prototype
+
+veramo did add-service
+
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3331/Prototype/did.json
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3331/Prototype/nf-a/did.json
+
+git add did.json
+git commit -m "Add service endpoint"
+git push
+
+
+veramo did resolve did:web:kiuyenzo.github.io:Prototype
+veramo did resolve did:web:kiuyenzo.github.io:Prototype/n-fa
+
+
