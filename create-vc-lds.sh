@@ -51,20 +51,17 @@ cat > /tmp/vc-args.json << EOF
 {
   "credential": {
     "@context": [
-      "https://www.w3.org/2018/credentials/v1"
+      "https://www.w3.org/2018/credentials/v1",
+      "https://veramo.io/contexts/profile/v1"
     ],
     "type": ["VerifiableCredential", "Profile"],
     "issuer": {
-      "id": "$ISSUER_DID",
-      "name": "Network Function Issuer"
+      "id": "$ISSUER_DID"
     },
     "issuanceDate": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
     "credentialSubject": {
       "id": "$SUBJECT_DID",
-      "name": "Alice",
-      "role": "Network Function A",
-      "operator": "Operator A",
-      "permissions": ["route", "forward", "filter"]
+      "name": "Alice"
     }
   },
   "proofFormat": "lds",

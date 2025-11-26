@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@veramo/core": "^6.0.0",
+    "@veramo/credential-ld": "^6.0.0",
+    "@veramo/credential-w3c": "^6.0.0",
+    "@veramo/data-store": "^6.0.0",
+    "@veramo/did-discovery": "^6.0.0",
+    "@veramo/did-manager": "^6.0.0",
+    "@veramo/did-provider-ethr": "^6.0.0",
+    "@veramo/did-provider-jwk": "^6.0.0",
+    "@veramo/did-provider-key": "^6.0.0",
+    "@veramo/did-provider-peer": "^6.0.0",
+    "@veramo/did-provider-web": "^6.0.0",
+    "@veramo/did-resolver": "^6.0.0",
+    "@veramo/key-manager": "^6.0.0",
+    "@veramo/kms-local": "^6.0.0",
+    "did-resolver": "^4.1.0",
+    "ethr-did-resolver": "^11.0.5",
+    "key-did-resolver": "^4.0.0",
+    "typeorm": "^0.3.27",
+    "typescript": "^5.9.3",
+    "web-did-resolver": "^2.0.31"
+  }
+}
