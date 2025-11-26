@@ -3,18 +3,18 @@ import { agent } from './agent.js';
 async function main() {
     console.log('🚀 Starting Veramo Agent...\n');
 
-    // 1. Liste alle existierenden DIDs auf
-    console.log('📋 Existing DIDs:');
-    const existingDids = await agent.didManagerFind();
-    if (existingDids.length > 0) {
-        existingDids.forEach((did, index) => {
-            console.log(`  ${index + 1}. ${did.did} (${did.provider})`);
-            if (did.alias) console.log(`     Alias: ${did.alias}`);
-        });
-    } else {
-        console.log('  No DIDs found in database.');
-    }
-    console.log();
+    // // 1. Liste alle existierenden DIDs auf
+    // console.log('📋 Existing DIDs:');
+    // const existingDids = await agent.didManagerFind();
+    // if (existingDids.length > 0) {
+    //     existingDids.forEach((did, index) => {
+    //         console.log(`  ${index + 1}. ${did.did} (${did.provider})`);
+    //         if (did.alias) console.log(`     Alias: ${did.alias}`);
+    //     });
+    // } else {
+    //     console.log('  No DIDs found in database.');
+    // }
+    // console.log();
 
     // 2. Erstelle eine neue DID (did:key - funktioniert offline, kein Infura nötig)
     console.log('✨ Creating a new did:key DID...');
