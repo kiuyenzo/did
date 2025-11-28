@@ -5,7 +5,7 @@ constants:
   port: 3331
   # please use your own X25519 key, this is only an example
   # you can generate a new key by running `veramo config gen-key` in a terminal
-  dbEncryptionKey: 29739248cad1bd1a0fc4d9b75cd4d2990de535baf5caadfdf8d8f86664aa830c
+  dbEncryptionKey: 48c3665f87e5522f4459658422ce65b073a65bca4d034b68c48c6225c8f9ceda
   databaseFile: ./database.sqlite
   methods:
     - keyManagerGetKeyManagementSystems
