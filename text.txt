@@ -11,7 +11,7 @@ veramo did create
 kiuyenzo.github.io:did:issuer
 
 veramo server
-curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3330/did/issuer/did.json
+curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3331/did/issuer/did.json # in den issuer ordner gehen
 curl -o did.json -H "Host: kiuyenzo.github.io" http://localhost:3330/did/did.json
 
 git add did.json
