@@ -64,7 +64,7 @@ veramo did resolve did:web:kiuyenzo.github.io:did:nf-b
       "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
     ],
     "id": "did:web:kiuyenzo.github.io:did:nf-b",
-    "verificationMethod": [
+    "verificationMethod": [veramo did resolve did:web:kiuyenzo.github.io:did:issuer
       {
         "id": "did:web:kiuyenzo.github.io:did:nf-b#04c898f2a76371a15df6600459c6e35a75587ebe363e6eaa92a231c3ce434c36559075714ba85302377c047f9319ce31a69c1e4cf80b5f155304de383d680d0eb3",
         "type": "EcdsaSecp256k1VerificationKey2019",
