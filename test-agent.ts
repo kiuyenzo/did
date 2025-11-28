@@ -20,7 +20,7 @@ async function main() {
     console.log('✨ Creating a new did:key DID...');
     try {
         const newDid = await agent.didManagerCreate({
-            provider: 'did:key',
+            provider: 'did:web', //did:peer fehler
             alias: 'test-did-' + Date.now()
         });
         console.log(`  ✓ Created: ${newDid.did}`);
